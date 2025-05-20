@@ -141,10 +141,27 @@ header .navbar ul li a{
 .fa-linkedin {
   background: white;
   color: blue;
+ 
+   
+    font-weight:bold;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size:17px;
+    transition:0.5s;
 }
 .fa-whatsapp {
   background: green;
   color: white;
+      
+    font-weight:bold;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size:17px;
+    transition:0.5s;
 }
 .fa-java {
   background: white;
