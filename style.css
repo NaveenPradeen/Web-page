@@ -37,8 +37,8 @@ header .navbar ul{
     display:flex;
     align-items:center;
     gap:40px;
-    position: sticky; top: 0;
-    backdrop-filter: blur(45px);
+   /* position: sticky; top: 0;
+    backdrop-filter: blur(45px);*/
 }
 header .navbar ul li a{
     color: white;
