@@ -7,46 +7,68 @@
     list-style:none;
     text-decoration:none;
     font-family: 'Poppins',sans-serif;
+  
   }
-  html {
-scroll-behavior: smooth;
+
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%; 
+
 }
-
-
-  body{
-    background-image: url("https://infinigeek.com/assets/5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
+  .container{
+    height:100vh;
+    width: 100%;
+    background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
     background-repeat: no-repeat;
     background-attachment: auto-fixed;
     background-size: cover;
     background-position: center;
+   
+
+    
+    
 
     animation-name: animate;
+ 
     animation-direction: alternate-reverse;
     animation-duration: 40s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-timing-function: ease-in-out ;
+  
+
   }
+  
+  
 
   @keyframes animate {
     0%{
-      background-image: url("https://infinigeek.com/assets/5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
+      background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
+      
     }
      20%{
-      background-image: url("https://images.prismic.io/colormatics/0791f88e-67ec-4fc7-8923-978027ddd6d8_game_computer_esports_cyber_sport_v2.jpg?auto=format%2Ccompress&rect=0%2C0%2C6240%2C3510&w=1800&fit=max&q=50");
+      background-image: url("0323_SplunkObservability_11zon.jpeg");
+     
     }
      40%{
-      background-image: url("https://boomi.com/wp-content/uploads/How-Long-Does-iPaaS-Implementation-Take.jpg");
+      background-image: url("1000_F_549232862_oPrsztcpgczoyNUZ9bwAGwDJstLQEeXU_11zon.jpeg");
+     
     }
      60%{
-      background-image: url("https://media.designrush.com/agency_photos_and_videos/99644/conversions/csc-web-development-thumb.jpg");
-    }
+      background-image: url("0791f88e-67ec-4fc7-8923-978027ddd6d8_game_computer_esports_cyber_sport_v2_11zon.jpeg");
+     
+     }
      80%{
-      background-image: url("https://wallpaperaccess.com/full/9396710.jpg");
+      background-image: url("0323_SplunkObservability_11zon.jpeg");
+    
     }
      100%{
-      background-image: url("https://infinigeek.com/assets/5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
+      background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
+    
     }
  
 
