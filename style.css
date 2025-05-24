@@ -9,27 +9,27 @@
     font-family: 'Poppins',sans-serif;
   
   }
+ 
 
 
-html,body{
+.container{
+    height: 100vh;
+    width: 100%;
     background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
     background-repeat: no-repeat;
     background-attachment: auto-fixed;
     background-size: cover;
     background-position: center;
-     will-change: transform;
+    transition: 5s;
 
-  
-  
     animation-name: animate;
- 
     animation-direction: alternate-reverse;
     animation-duration: 40s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-timing-function: ease-in-out ;
-    backface-visibility: hidden;
+    
 
 
   }
