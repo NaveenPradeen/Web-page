@@ -1,35 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-* {
+*{
     padding:0;
     margin:0;
     box-sizing:border-box;
     list-style:none;
     text-decoration:none;
     font-family: 'Poppins',sans-serif;
+   
   
   }
- 
+html{
+  overflow-y: scroll;
+}
 
 
-.container{
-    height: 100vh;
+.container {
+    height: 100%;
     width: 100%;
     background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
     background-repeat: no-repeat;
     background-attachment: auto-fixed;
     background-size: cover;
     background-position: center;
-    transition: 5s;
+     will-change: transform;
+     transition: 5s;
 
+  
+  
     animation-name: animate;
+ 
     animation-direction: alternate-reverse;
     animation-duration: 40s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-timing-function: ease-in-out ;
-    
+
 
 
   }
@@ -40,14 +47,16 @@
     0%{
       background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
       
+      
     }
      20%{
       background-image: url("0323_SplunkObservability_11zon.jpeg");
+      
      
     }
      40%{
       background-image: url("1000_F_549232862_oPrsztcpgczoyNUZ9bwAGwDJstLQEeXU_11zon.jpeg");
-     
+    
     }
      60%{
       background-image: url("0791f88e-67ec-4fc7-8923-978027ddd6d8_game_computer_esports_cyber_sport_v2_11zon.jpeg");
@@ -55,11 +64,10 @@
      }
      80%{
       background-image: url("5.jpeg.jpg");
-    
+  
     }
      100%{
       background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
-    
     }
  
 
