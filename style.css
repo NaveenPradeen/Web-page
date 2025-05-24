@@ -14,8 +14,7 @@ html{
   overflow-y: scroll;
 }
 
-
-.container {
+body {
     height: 100%;
     width: 100%;
     background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
