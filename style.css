@@ -13,6 +13,7 @@
 
 
 html,body {
+  scroll-behavior: smooth;
     background-color: black;
   
     background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
