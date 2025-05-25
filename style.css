@@ -10,30 +10,33 @@
    
   
   }
-html{
-  overflow-y: scroll;
-}
 
-body {
+
+html,body {
+    background-color: black;
   
     background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
     background-repeat: no-repeat;
-    background-attachment: auto-fixed;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
-     will-change: transform;
-     transition: 5s;
+    transition: 5s;
 
   
   
     animation-name: animate;
- 
     animation-direction: alternate-reverse;
     animation-duration: 40s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-timing-function: ease-in-out ;
+   animation-delay: 0s;overflow: hidden;
+    backface-visibility: hidden; 
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+
 
 
 
