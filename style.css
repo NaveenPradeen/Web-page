@@ -10,10 +10,12 @@
    
   
   }
-
+html{
+  scroll-behavior: y-smooth;
+}
 
 html,body {
-  scroll-behavior: smooth;
+  
     background-color: black;
   
     background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
@@ -32,13 +34,7 @@ html,body {
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-timing-function: ease-in-out ;
-   animation-delay: 0s;overflow: hidden;
-    backface-visibility: hidden; 
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility:    hidden;
-    -ms-backface-visibility:     hidden;
-
-
+  
 
 
   }
