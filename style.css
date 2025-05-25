@@ -18,7 +18,7 @@ html,body {
   
     background-image: url("5-Animation-Techniques-To-Boost-Your-Web-Design-2-min-scaled.jpeg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: auto-fixed;
     background-size: cover;
     background-position: center;
     transition: 5s;
