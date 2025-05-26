@@ -199,6 +199,7 @@ header .navbar ul li a{
     scale:1.05;
     box-shadow: 0 0 10px ;
     border-radius:none;
+
 }
 
 .fa-linkedin {
@@ -226,8 +227,104 @@ header .navbar ul li a{
     font-size:17px;
     transition:0.5s;
 }
-.fa-java {
-  background: white;
-  color: red;
+.fa-brands {
+   display:flex;
+   gap: 20px;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
+.fa-brands:hover {
+    
+    scale:1.05;
+    box-shadow: 0 0 10px ;
+    border-radius:none;
+
+}
+
+.fa-solid {
+   display:flex;
+   gap: 20px;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-solid:hover {
+    
+    scale:1.05;
+    box-shadow: 0 0 10px ;
+    border-radius:none;
+}
+
+.fa-html5 {
+  background: white;
+  color: red;
+      
+    font-weight:bold;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size:30px;
+    transition:0.5s;
+}
+.fa-java {
+  background: white;
+  color: blue;
+      
+    font-weight:bold;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size:30px;
+    transition:0.5s;
+
+}
+.fa-js{
+  background: yellow;
+  color: black;
+      
+    font-weight:bold;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size:30px;
+    transition:0.5s;
+
+}
+.fa-angular{
+  background: white;
+  color: red;
+      
+    font-weight:bold;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size:30px;
+    transition:0.5s;
+
+}
+.fa-database{
+  background: blue;
+  color: white;
+      
+    font-weight:bold;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size:30px;
+    transition:0.5s;
+
+}
