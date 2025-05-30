@@ -328,8 +328,8 @@ header .navbar ul li a{
 
 }
 .fa-database{
-  background: blue;
-  color: white;
+  background: white;
+  color: blue;
       
     font-weight:bold;
     border:none;
@@ -340,3 +340,4 @@ header .navbar ul li a{
     transition:0.5s;
 
 }
+
