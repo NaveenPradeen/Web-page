@@ -111,10 +111,11 @@ header .navbar ul li a{
     width:110px;
     padding: 15px;
     font-weight:bold;
-    background-color:yellowgreen;
+    background-color: yellowgreen;
     color:black;
     border:none;
     outline:none;
+    font-size: 15px;
     border-radius: 5px;
     cursor:pointer;
     transition:0.4s;
