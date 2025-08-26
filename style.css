@@ -355,3 +355,16 @@ header .navbar label:hover{
 
 }
 
+.fa-Se{
+  background: green;
+  color: white;
+      
+    font-weight:bold;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size:30px;
+    transition:0.5s;
+
+}
