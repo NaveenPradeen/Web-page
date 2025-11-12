@@ -362,7 +362,7 @@ header .navbar label:hover{
     font-weight:bold;
     border:none;
     outline:none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor:pointer;
     font-size:30px;
     transition:0.5s;
